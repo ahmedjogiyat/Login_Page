@@ -33,7 +33,7 @@ function App() {
        <NavBar/>
      
       <Paper elevation={3}  className ={classes.paper}> 
-              <h1>LogIn</h1>
+              <h1>LogInnnnnn</h1>
                <form className={classes.paper} noValidate autoComplete="off">
         <TextField  label="Enter Email" /> <br/><br/>
         <TextField  label="Enter Passsword" /> <br/><br/>
