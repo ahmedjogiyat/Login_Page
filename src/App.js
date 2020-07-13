@@ -3,6 +3,8 @@ import NavBar from './Navbar';
 import { makeStyles } from '@material-ui/core/styles';
 import {Paper, TextField} from '@material-ui/core';
 import Button from '@material-ui/core/Button';
+import BarChart from './barChart';
+import PieChart from './pieChart'
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
@@ -33,7 +35,7 @@ function App() {
        <NavBar/>
      
       <Paper elevation={3}  className ={classes.paper}> 
-              <h1>LogInnnnnn</h1>
+              <h1>LogIn </h1>
                <form className={classes.paper} noValidate autoComplete="off">
         <TextField  label="Enter Email" /> <br/><br/>
         <TextField  label="Enter Passsword" /> <br/><br/>
@@ -45,6 +47,8 @@ function App() {
  
 </form>
       </Paper>
+      <BarChart/>
+      <PieChart/>
            
      
     </div>
